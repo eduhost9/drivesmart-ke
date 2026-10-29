@@ -125,6 +125,21 @@
     @apply bg-background text-foreground;
   }
   html {
-    @apply font-sans;
-  }
+  font-family: var(--font-geist-sans);
+}
+}
+
+:root {
+  --brand: #2563eb;
+  --brand-dark: #1d4ed8;
+  --success: #16a34a;
+  --warning: #f59e0b;
+  --danger: #dc2626;
+
+  --background: #f8fafc;
+  --foreground: #0f172a;
+}
+
+button {
+  cursor: pointer;
 }
